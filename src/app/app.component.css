@@ -1,0 +1,137 @@
+.select-view-heading,
+.linechart-images,
+.interchange,
+.pirchart-images,
+.heading,
+.summary,
+.forecast,
+.map,
+.user {
+    background-color: white;
+}
+
+.select-view {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding-left: 10px;
+}
+
+.summary,
+.forecast,
+.map {
+    margin-right: 25px;
+}
+
+.select-view-heading p {
+    background-color: white;
+    font-weight: 900;
+}
+
+.menu-bar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    height: 65px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    align-items: center;
+}
+
+.right-menu {
+    display: flex;
+    background-color: white;
+    margin-right: 15px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: capitalize;
+    background-color: white;
+}
+
+.side-menu {
+    display: flex;
+    flex-direction: column;
+    background-color: #52AA81;
+    width: 17%;
+    position: fixed;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    top: 65px;
+    bottom: 0;
+}
+
+.sidemenutitle {
+    margin-top: 25%;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    border-bottom: 1px solid white;
+}
+
+.sidemenutitle h2 {
+    background-color: #52AA81;
+}
+
+.side-menubar {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.side-menubar a {
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 900;
+    width: 100%;
+    align-content: flex-start;
+    align-items: flex-start;
+    position: inherit;
+    padding-left: 50px;
+    background-color: #52AA81;
+}
+
+.side-menubar a:hover {
+    color: black;
+    background-color: aliceblue;
+}
+
+.active {
+    color: black !important;
+    background-color: aliceblue !important;
+}
+
+.noactive {
+    color: black;
+    background-color: aliceblue;
+}
+
+.pirchart-images img:hover {
+    content: url(../assets/images/pie2.png);
+}

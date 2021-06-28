@@ -1,0 +1,38 @@
+<section>
+    <div class="chartmain">
+        <div class="chartview">
+            <canvas id="myChart" width="870" height="200" style="background-color: white;"></canvas>
+        </div>
+        <div class="legends-list">
+            <ul>
+                <li *ngFor="let legends of chartLegends"><span class="lege" style="background-color:{{legends.fillStyle}};border:1px solid {{legends.strokeStyle}}"></span>{{legends.text}}</li>
+            </ul>
+        </div>
+    </div>
+    <div class="dataTables">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>First</th>
+                    <th>Last</th>
+                    <th>Handle</th>
+                </tr>
+            </thead>
+            <tbody class="tbody">
+                <tr>
+                    <td>1</td>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>

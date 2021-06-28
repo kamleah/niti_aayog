@@ -1,0 +1,91 @@
+section {
+    position: absolute;
+    top: 65px;
+    left: 17%;
+    background-color: white;
+}
+
+.chartmain {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    border: 2px dotted black;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.chartview {
+    padding: 15px;
+    background-color: white;
+}
+
+ul {
+    list-style: none;
+    font-family: sans-serif;
+    padding: 40px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+ul li .lege {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    color: white;
+    margin-right: 8px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.legends-list {
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Poppins', sans-serif;
+}
+
+tbody {
+    text-align: center;
+}
+
+th {
+    background-color: #B3FFD6;
+}
+
+td,
+th {
+    border: 1px solid #ddd;
+    padding: .5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+tr {
+    background-color: blue;
+}
+
+
+/* .table-striped>tbody>tr>td:nth-of-type(odd) {
+    background-color: red !important;
+}
+
+.table-striped>tbody>tr>td:nth-of-type(even) {
+    background-color: blue !important;
+} */
